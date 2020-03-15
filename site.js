@@ -293,7 +293,7 @@ function checkCorrect(n) {
       question: "Và để ủng hộ và cổ vũ em iu, anh sẽ lì xì cho em <b style=\"color:green;\">$2</b> làm vốn.<br><br>Em yêu đã sẵn sàng chưa?",
     },
 	{
-      		question: "Như anh đã nói, nếu em trả lời đúng thì em sẽ được thưởng bao nhiêu? Còn sai thì trừ bao nhiêu?",
+      		question: "Như anh đã nói:<br> nếu em trả lời đúng thì em sẽ được thưởng bao nhiêu?<br> Còn sai thì trừ bao nhiêu?",
       		answers: {
         			a: "Đúng: +50, Sai: -50",
         			b: "Đúng: +50, Sai: -30",
