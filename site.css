@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baloo+2|Comfortaa&display=swap');
 
 body{
 	font-size: 20px;
@@ -6,7 +6,7 @@ body{
 	color: #333;
   font-weight: 300;
   text-align: center;
-  background-color: #f8f6f0;
+  background-color: white;
 }
 h1{
   font-weight: 300;
@@ -16,6 +16,16 @@ h1{
   background-color: #444;
   color: #fff;
 }
+
+h6{
+  margin: 20px;
+  padding: 1px;
+  color: #00D15C;
+  font-size: 20px;
+  font-family: 'Baloo 2', cursive;
+}
+
+
 p {
 
   margin: 20px;
@@ -24,22 +34,34 @@ p {
 
 }
 img {
-  width: 10%;
+  width: 15%;
+  padding: 10px;
 }
 
 .question{
+
   font-size: 30px;
   margin-bottom: 10px;
 }
 .answers {
-  margin-bottom: 20px;
-  text-align: left;
+	
+margin: 30px;
+  margin-bottom: 10px;
+
   display: inline-block;
 }
 .answers label{
   display: block;
   margin-bottom: 10px;
 }
+.footnote{
+  font-size: 100px;
+  margin-bottom: 100px;
+  display: block;
+  visibility: hidden;
+  
+}
+
 button{
   font-family: 'Comfortaa', cursive;
 
